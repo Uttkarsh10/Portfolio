@@ -18,9 +18,9 @@ const Sidebar = () => {
         </div>
         <p className="p-3 text-center">Hi, my name is Uttkarsh Saini and I'm a software engineer. Welcome to my personal website!</p>
         
-      <div className="p-5">
+      {/* <div className="p-5">
         <SocialMediaIcons />
-      </div>
+      </div> */}
 
       <ul className="menu bg-base-200 rounded-box w-56 p-5 items-center">
           <li><a><PersonIcon/> About Me</a></li>
@@ -30,7 +30,7 @@ const Sidebar = () => {
       </ul>
       
 
-      <div className="mt-20">
+      <div className="mt-40">
         <Theme/>
       </div>
 
